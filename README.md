@@ -13,8 +13,6 @@ Multiplication Display: The final product of the multiplication is shown on a 7-
 Control Signals: Uses a controller to manage states like Start, Add, and Shift during the multiplication process.
 Error Checking: The system halts with a Halt signal if any issues occur during multiplication.
 
-# Module Overview
-
 # MultiplierSigned
 This module is the top-level module that instantiates submodules for managing the signed multiplication process and displaying the result. It takes the Clock, Reset, Multiplier, and Multiplicand inputs and outputs the Product and a ProductDisplay using a 7-segment display.
 
